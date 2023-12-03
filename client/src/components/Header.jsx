@@ -11,11 +11,11 @@ export default function Header() {
           <span className="text-slate-700">Estate</span>
         </h1>
         </Link>
-        <form className='bg-slate-100 p-2 rounded-lg flex items-center'>
+        <form className='flex bg-slate-100 items-center p-3 rounded-lg'>
           <input 
           type="text" 
           placeholder="Search..." 
-          className="bg-transparent focus:outline-none w-24 sm:w-64"
+          className="text-xs sm:text-sm bg-transparent focus:outline-none w-24 sm:w-64"
           />
           <FaSearch className="text-slate-600"/>
         </form>
