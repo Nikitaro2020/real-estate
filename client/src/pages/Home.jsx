@@ -50,15 +50,14 @@ export default function Home() {
       {/* top */}
       <div className='flex flex-col gap-6 p-28 px-3 max-w-6xl mx-auto'>
         <h1 className='text-slate-700 font-bold text-3xl lg:text-6xl'>
-          Find your next <span className='text-slate-500'>perfect</span>
+          Найди своё <span className='text-slate-500'>идеальное</span>
           <br />
-          place with ease
+          место с лёгкостью!
         </h1>
         <div className='text-gray-400 text-xs sm:text-sm'>
-          Sahand Estate is the best place to find your next perfect place to
-          live.
+          Vivanti Estate — лучшее место, где можно найти идеальное место для жизни.
           <br />
-          We have a wide range of properties for you to choose from.
+          У нас есть широкий выбор недвижимости на ваш вкус.
         </div>
         <Link
           to={'/search'}
